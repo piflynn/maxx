@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sam's Portfolio</title>
+	<!-- Link to bootstrap cdn -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Link to my custom styles -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+		<!-- Header not inside container: achieve full page width -->
+		<div class="row maxx-header">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-3 maxx-brand">
+				<img src="img/logo.png">
+			</div>
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4 maxx-title">
+				<div>
+					<h1 style="font-weight: bold;">HELLO, I'M SAM</h1>
+					<h2>Web Designer</h2>
+				</div>
+			</div>
+		</div>
+
+		<!-- banner img not inside container: achieve full page width -->
+		<div class="row maxx-banner">
+			<img src="img/hero1.jpg">
+		</div>
+
+		<!-- portfolio inside container to create left and right margins -->
+		<div class="container">
+			<!-- portfolio title -->
+			<div class="row">
+				<div class="col-md-12 text-center maxx-port-header">
+					<h1 style="font-weight: bold;">PORTFOLIO</h1>
+				</div>
+			</div>
+			<!-- portfolio items, 3 columns, col-md-4 -->
+			<div class="row maxx-portfolio">
+				<div class="col-md-4">
+					<div class="row maxx-port-title">
+						<div class="col-md-12 text-center">
+							<h2>TECHNOLINE</h2>
+							<p class="maxx-port-url">technoline.com</p>
+						</div>
+					</div>
+					<div class="row maxx-port-img">
+						<div class="col-md-12 ">
+							<img src="img/company1.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row maxx-port-title">
+						<div class="col-md-12 text-center">
+							<h2>MAJESTIQUE</h2>
+							<p class="maxx-port-url">majestique.com</p>
+						</div>
+					</div>
+					<div class="row maxx-port-img">
+						<div class="col-md-12">
+							<img src="img/company2.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row maxx-port-title">
+						<div class="col-md-12 text-center">
+							<h2>SILVERZIM</h2>
+							<p class="maxx-port-url">silverzim.com</p>
+						</div>
+					</div>
+					<div class="row maxx-port-img">
+						<div class="col-md-12">
+							<img src="img/company3.jpeg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<!-- footer not inside container: achieve full page width -->
+	<div class="row maxx-footer">
+		<div class="col-md-12 text-center">
+			<h4>&copy; 2016 <span style="text-decoration: underline;">Sam&apos;s Web Dev</span> All Rights Reserved.</h4>
+		</div>
+	</div>
+</body>
+</html>
