@@ -1,0 +1,42 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+.maxx-header {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.maxx-port-header {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.maxx-port-title {
+	border-top: .3rem solid #0D4B6E;
+	border-bottom: .5rem solid #0D4B6E;
+	margin: auto;
+	margin-top: 1rem;
+}
+
+.maxx-port-url {
+	color: #BB1F25;
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+	font-size: 2rem;
+	font-style: italic;
+}
+
+.maxx-port-img {
+	margin-top: 1rem;
+}
+
+.maxx-footer {
+	background: #3D3D3D;
+	color: #FFFFFF;
+	margin-top: 3rem;
+	padding: 3rem;
+}
